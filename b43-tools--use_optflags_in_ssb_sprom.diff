@@ -1,0 +1,10 @@
+--- ssb_sprom/Makefile~	2009-01-25 18:14:30.000000000 +0300
++++ ssb_sprom/Makefile	2009-05-19 16:30:29.898691320 +0400
+@@ -1,6 +1,6 @@
+ CC = cc
+ PREFIX = /usr/local
+-CFLAGS = -std=c99 -O2 -fomit-frame-pointer -Wall -D_BSD_SOURCE
++CFLAGS += -std=c99 -O2 -fomit-frame-pointer -Wall -D_BSD_SOURCE
+ LDFLAGS =
+ 
+ 
